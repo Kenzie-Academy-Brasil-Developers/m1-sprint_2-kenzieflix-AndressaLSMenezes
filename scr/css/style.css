@@ -1,0 +1,83 @@
+body header diz img h1 main p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+
+    
+}
+body {
+    background-color: #121214;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.stard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stard_logo {
+    background-color: #121214;
+    margin: 30px auto 40px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.stard_who {
+    color: #fff;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil {
+    width: 700px;
+    margin: 61px auto 106px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.perfil_user {
+    width: 160px;
+    color: #9C9C9C;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.perfil_user:hover {
+    color: #fff;
+}
+.perfil_user_image{
+    width: 160px;
+    height: 160px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.perfil_user_image:hover {
+    border: #fff 2px solid;
+}
+
+.perfil_gerenciar {
+    width: 206px;
+    height: 50px;
+    background-color: #121214;
+    border-radius: 8px;
+    border: 1.5px #fff solid;
+    color: #fff;
+}
+.perfil_gerenciar:hover {
+    background-color: #fff;
+    color: #121214;
+}
